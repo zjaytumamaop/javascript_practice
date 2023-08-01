@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:98vh;
+    background-color: #4A55A2
+}
+.scoreBoard{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.choices{
+  
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'impact';  
+    color:#C5DFF8;
+    font-size: 50px;
+}
+
+
+/*#btnRock, #btnPaper,#btnScissors{
+    background-color:white;
+    height: 250px;
+    width: 350px;
+    color: white;
+    border-radius: 25px;
+}*/
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    padding: 30px;
+}
+
+#reset, #about {
+    height: 35px;
+    width: 60px;
+    border-radius: 25px;
+}
+
+.bottomBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    color: #7895CB;
+}
+
+#playerTitle, #player, #computerTitle, #computer{ 
+    font-size: 40px;
+    color: #A0BFE0
+}
+
+#results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7895CB;
+    font-size: 36px;
+ 
+}
+
+#btnRock, 
+#btnPaper, 
+#btnScissors {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: #A0BFE0;
+    border: 2px solid #7895CB;
+    border-radius: 15px;
+    box-shadow: 0 9px #7895CB;
+  }
+
+#btnRock:hover, 
+#btnPaper:hover, 
+#btnScissors:hover {background-color: #7895CB;}
+
+#btnRock:active, 
+#btnPaper:active, 
+#btnScissors:active {
+    background-color: #7895CB;
+    box-shadow: 0 5px #7895CB;
+    transform: translateY(4px);
+    color: #EFF6EE;
+}
+
+#player, #computer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
